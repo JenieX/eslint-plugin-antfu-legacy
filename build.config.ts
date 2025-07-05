@@ -4,14 +4,15 @@ export default defineBuildConfig({
   entries: [
     'src/index',
   ],
-  declaration: 'node16',
+  declaration: true,
   clean: true,
-  externals: [
-    '@typescript-eslint/utils',
-  ],
   rollup: {
+    emitCJS: true,
     inlineDependencies: [
       '@antfu/utils',
     ],
   },
+  externals: [
+    '@typescript-eslint/utils',
+  ],
 })
