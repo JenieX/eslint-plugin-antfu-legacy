@@ -7,6 +7,27 @@ Anthony extended ESLint rules. For [antfu/eslint-config](https://github.com/antf
 
 [Rules List](./src/rules)
 
+## Installation
+
+Install the eslint-plugin-antfu-legacy package:
+
+```
+npm i eslint-plugin-antfu-legacy -D
+```
+
+In your config .eslintrc.cjs:
+
+```js
+// .eslintrc.cjs
+module.exports = {
+  plugins: ['antfu-legacy'],
+  rules: {
+    'antfu-legacy/consistent-chaining': 2,
+    'antfu-legacy/top-level-function': 2,
+  },
+}
+```
+
 ## Sponsors
 
 <p align="center">

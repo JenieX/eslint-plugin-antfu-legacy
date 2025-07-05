@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-antfu-legacy",
   "type": "module",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "packageManager": "pnpm@10.6.2",
   "description": "Anthony's opinionated ESLint rules",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",

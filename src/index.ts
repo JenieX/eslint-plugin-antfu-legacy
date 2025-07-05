@@ -14,7 +14,7 @@ import topLevelFunction from './rules/top-level-function'
 
 const plugin = {
   meta: {
-    name: 'antfu',
+    name: 'antfu-legacy',
     version,
   },
   // @keep-sorted
